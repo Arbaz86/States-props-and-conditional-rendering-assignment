@@ -49,12 +49,12 @@ function Counter() {
         Double
       </button>
       <button
-        className="clean"
+        className="clear"
         onClick={() => {
           handledouble("");
         }}
       >
-        Clean
+        Clear
       </button>
       <div className="EvenOdd">
         Number is: {counter % 2 === 0 ? "Even" : "Odd"}{" "}
